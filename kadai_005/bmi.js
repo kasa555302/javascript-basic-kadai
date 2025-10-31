@@ -1,13 +1,9 @@
 // 変数の宣言・値の代入
-let youWeight = 68;
-let youHeight = 1.7;
-
-// コンソールへの出力
-console.log(youWeight);
-console.log(youHeight);
+let yourWeight = 68;
+let yourHeight = 1.7;
 
 // 定数の宣言・値の代入
-const yourBmi = youWeight / ( youHeight * youHeight );
+const yourBmi = yourWeight / ( yourHeight * yourHeight );
 
 // コンソールへの出力
 console.log(yourBmi);
