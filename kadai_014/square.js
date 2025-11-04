@@ -1,7 +1,7 @@
+// 引数を二乗してその戻り値として返す関数を定義
 const calculateTotal = (num) => {
-    // 与えられた引数answerを二乗し、その値を出力する
-console.log(num * num);
+      return num * num;
 }
 
-// 関数を呼び出し、引数として渡す
-calculateTotal(10);
+// 関数の戻り値をコンソールに出力
+console.log(calculateTotal(10));
